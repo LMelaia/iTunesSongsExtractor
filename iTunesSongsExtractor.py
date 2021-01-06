@@ -1,11 +1,11 @@
 from os import path
 
-hard_coded_library_file = 'C:\\Users\\lukem\\Music\\iTunes Music Library - September 2020 Backup - Copy.xml'
+hard_coded_library_file = 'path/to/library.xml'
 validation_score_needed = 3
 
-output_file = 'C:\\Users\\lukem\\Desktop\\Music\\Music-List'
-number_of_songs_per_file = 30
-number_of_songs = 804
+output_file = 'path/to/out/directory'
+number_of_songs_per_file = 30 # Amount of songs per csv file
+number_of_songs = 0 # Change this to number of songs in library
 
 
 class ITunesSongsExtractor:
